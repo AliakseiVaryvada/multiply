@@ -1,3 +1,6 @@
 module.exports = function multiply(first, second) {
-    return (+first * +second).toString();
+    module.exports = function multiply(first, second) {
+        let itog = BigInt(+first) * BigInt(+second);
+        return itog.toString();
+    };
 };
