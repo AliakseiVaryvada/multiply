@@ -20,5 +20,7 @@ module.exports = function multiply(first, second) {
             }
         }
     }
-    return itog.reverse().join("");
+    let str = itog.reverse().join("");
+    str = str.replace(/^0+/, "");
+    return str;
 };
