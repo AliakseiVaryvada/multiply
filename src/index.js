@@ -22,4 +22,3 @@ module.exports = function multiply(first, second) {
     }
     return itog.reverse().join("");
 };
-console.log(multiply("329568934658432659586", "58379426534596"));
